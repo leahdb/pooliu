@@ -6,12 +6,16 @@ $dark-blue: #143d6d;
 $darker-blue: #103158;
 $yellow: #ffb019;
 $white: white;
-$footer: #ecf0f3;
 $light-gray: rgba(160, 160, 160, 0.2);
 $dark-grey: #a0a0a0;
+$blue-grey: #ECF0F3;
 
 * {
   font-family: $font;
+}
+
+.nav{
+  background-color: $blue-grey;
 }
 
 .home-page {
@@ -137,8 +141,11 @@ $dark-grey: #a0a0a0;
 }
 
 footer {
-  background-color: $footer;
+  background-color: $blue-grey;
   margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   span {
     font-size: 14px;
     font-weight: 500;
@@ -239,5 +246,100 @@ footer {
       background-color: $light-gray;
       border: 0;
     }
+  }
+}
+
+.setup-pages {
+  background-color: $dark-blue;
+  height: 100vh;
+  width: 100vw;
+
+  .cards {
+    border: 0;
+    border-radius: 30px;
+    height: 100%;
+
+    .title {
+      margin-top: 0px;
+      font-size: 30px;
+      color: $dark-blue;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .page-progress {
+
+      width: fit-content;
+      .line {
+        width: 220px;        
+        height: 4px;
+        background-color: $yellow;
+        opacity: 1;
+        border: 0;
+      }
+
+      .num{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: solid $yellow 3px;
+        color: $yellow;
+        font-weight: bold;
+        font-size: 24px;
+      }
+    }
+
+    .inputs {
+      width: 620px;
+
+      select{
+        width: 250px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: solid $dark-blue 2px;
+        border-radius: 0;
+        font-weight: bold;
+        color: $dark-blue;
+        font-size: 14px;
+      }
+
+      .dropdown{
+        width: 250px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: solid $dark-blue 2px;
+      }
+
+      .location-btn{
+        width: 250px;
+        font-weight: bold;
+        color: $dark-blue;
+        font-size: 14px;
+        border: solid $dark-blue 2px;
+      }
+    }
+
+    .links {
+      text-decoration: none;
+      color: $yellow;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    p {
+      color: $dark-blue;
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: none;
+    }
+  }
+}
+
+.create-trip{
+  .profile-pic{
+    height: 50px;
+    border-radius: 50%;
   }
 }

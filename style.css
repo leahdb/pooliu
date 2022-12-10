@@ -2,8 +2,18 @@
   font-family: "Segoe UI";
 }
 
+
+.nav {
+  background-color: #ECF0F3;
+}
+
+.home-page .yellow-img {
+  width: 50%;
+  height: 767px;
+
 .home-page .bg {
   width: 100%;
+
   position: absolute;
   z-index: -2;
 }
@@ -103,8 +113,11 @@
 }
 
 footer {
-  background-color: #ecf0f3;
+  background-color: #ECF0F3;
   margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 footer span {
   font-size: 14px;
@@ -196,4 +209,88 @@ footer a {
   height: 60px;
   background-color: rgba(160, 160, 160, 0.2);
   border: 0;
+}
+
+.setup-pages {
+  background-color: #143d6d;
+  height: 100vh;
+  width: 100vw;
+}
+.setup-pages .cards {
+  border: 0;
+  border-radius: 30px;
+  height: 100%;
+}
+.setup-pages .cards .title {
+  margin-top: 0px;
+  font-size: 30px;
+  color: #143d6d;
+  font-weight: bold;
+  text-align: center;
+}
+.setup-pages .cards .page-progress {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.setup-pages .cards .page-progress .line {
+  width: 220px;
+  height: 4px;
+  background-color: #ffb019;
+  opacity: 1;
+  border: 0;
+}
+.setup-pages .cards .page-progress .num {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: solid #ffb019 3px;
+  color: #ffb019;
+  font-weight: bold;
+  font-size: 24px;
+}
+.setup-pages .cards .inputs {
+  width: 620px;
+}
+.setup-pages .cards .inputs select {
+  width: 250px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: solid #143d6d 2px;
+  border-radius: 0;
+  font-weight: bold;
+  color: #143d6d;
+  font-size: 14px;
+}
+.setup-pages .cards .inputs .dropdown {
+  width: 250px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: solid #143d6d 2px;
+}
+.setup-pages .cards .inputs .location-btn {
+  width: 250px;
+  font-weight: bold;
+  color: #143d6d;
+  font-size: 14px;
+  border: solid #143d6d 2px;
+}
+.setup-pages .cards .links {
+  text-decoration: none;
+  color: #ffb019;
+  font-size: 18px;
+  font-weight: bold;
+}
+.setup-pages .cards p {
+  color: #143d6d;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.create-trip .profile-pic {
+  height: 50px;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
