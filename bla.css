@@ -1,0 +1,27 @@
+* {
+  font-family: "Segoe UI";
+}
+
+.setup-pages {
+  background-color: #143d6d;
+  height: 100vh;
+  width: 100vw;
+}
+.setup-pages .cards {
+  border: 0;
+  border-radius: 30px;
+  height: 100%;
+}
+.setup-pages .cards .title {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #143d6d;
+  font-weight: bold;
+  text-align: center;
+}
+.setup-pages .cards .links {
+  text-decoration: none;
+  color: #ffb019;
+  font-size: 18px;
+  font-weight: bold;
+}/*# sourceMappingURL=bla.css.map */
