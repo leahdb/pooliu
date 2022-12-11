@@ -16,6 +16,20 @@ $blue-grey: #ECF0F3;
 
 .nav{
   background-color: $blue-grey;
+  .profile-pic{
+    height: 50px;
+    border-radius:50%;
+  }
+  .drop{
+    a{
+      text-decoration: none;
+      font-weight: 500;
+      color: $dark-blue;
+    }
+    ul{
+      
+    }
+  }
 }
 
 .home-page {
@@ -144,9 +158,9 @@ $blue-grey: #ECF0F3;
 footer {
   background-color: $blue-grey;
   margin-top: 50px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  // position: fixed;
+  // bottom: 0;
+  // width: 100%;
   span {
     font-size: 14px;
     font-weight: 500;
@@ -340,8 +354,5 @@ footer {
 }
 
 .create-trip{
-  .profile-pic{
-    height: 50px;
-    border-radius: 50%;
-  }
+  
 }

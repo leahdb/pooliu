@@ -5,7 +5,15 @@
 .nav {
   background-color: #ECF0F3;
 }
-
+.nav .profile-pic {
+  height: 50px;
+  border-radius: 50%;
+}
+.nav .drop a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #143d6d;
+}
 .home-page .yellow-img {
   width: 50%;
   height: 767px;
@@ -110,9 +118,6 @@
 footer {
   background-color: #ECF0F3;
   margin-top: 50px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 footer span {
   font-size: 14px;
@@ -283,9 +288,4 @@ footer a {
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
-}
-
-.create-trip .profile-pic {
-  height: 50px;
-  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
